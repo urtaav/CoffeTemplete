@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Satisfy');
+html{
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+body{
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/dave-michuda-54058-unsplash.jpg) no-repeat 50% 50%;
+    background-size: cover;
+    display: table;
+    }
+
+.nav{
+    text-align: center;
+    margin-top: 40px;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    padding: 10px 40px;
+}
+.logo{
+    position: absolute;
+    top:32%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+img{
+    width: 70px;
+}
+.header{
+    position:absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.header h1{
+    color:#fff;
+    font-family: 'Satisfy', cursive;
+    font-size:50px;
+}
+.tagline{
+    position: absolute;
+    top:59%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+}
+.tagline p{
+    color: #fff;
+    font-family: monserrat,sans-serif;
+    letter-spacing: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 8px;
+  
+}
+
+
+.line{
+    position: absolute;
+    top:65%;
+    left: 50%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(red, green, blue, alpha);
+    font-family: monserrat,sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    font-size:10px;
+    text-transform: uppercase;
+    text-align:center;
+    white-space:nowrap;
+    overflow: hidden;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+.anim-typewriter{
+    animation:typewriter 4s steps(40) 2s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+}
+@keyframes typewriter{
+    from{
+        width: 0;
+    }
+    to{
+        width: 16em;
+    }
+}
+@keyframes blinkTextCursor{
+    from{
+        border-right-color: rgba(255, 255, 255,0.75);
+    }to{
+        border-right-color: transparent;
+    }
+}
+.btn{
+    position:absolute;
+    top:75%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+button{
+
+    padding: 16px 42px;
+    font-family: monserrat,sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    background: rgb(0, 0, 0,0);
+    color:#fff;
+    transition: .3s;
+    font-size: 18px;
+    border:1px solid #fff;
+}
+button:hover{
+    transition: .3s;
+    background: #fff;
+    color:#000;
+}
